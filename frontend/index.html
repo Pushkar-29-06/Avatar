@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avatar Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">PUSHKAR <span>MAHADIK</span></div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="bg-system">
+      <div id="parallaxBg" class="bg-parallax"></div>
+      <div id="particlesContainer" class="particles-overlay"></div>
+      <div class="vignette"></div>
+      <div class="scanlines"></div>
+    </div>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Hi, I'm <span>Pushkar Mahadik</span><br />Web Developer</h1>
+        <p>
+          I’m a passionate web developer who loves building clean and
+          interactive web experiences. I enjoy turning ideas into simple,
+          functional, and visually engaging websites. With skills in both
+          front-end and back-end development, I focus on writing clean code and
+          creating smooth user experiences.
+        </p>
+        <a href="#contact" class="cta-button">Get in Touch</a>
+      </div>
+
+      <div class="profile-container">
+        <div class="profile-border"></div>
+        <div class="tech-icons">
+          <i
+            class="tech-icon"
+            style="top: 0; left: 50%; transform: translateX(-50%)"
+            >🌐</i
+          >
+          <i
+            class="tech-icon"
+            style="top: 50%; right: 0; transform: translateY(-50%)"
+            >💻</i
+          >
+          <i
+            class="tech-icon"
+            style="bottom: 0; left: 50%; transform: translateX(-50%)"
+            >📊</i
+          >
+          <i
+            class="tech-icon"
+            style="top: 50%; left: 0; transform: translateY(-50%)"
+            >🎨</i
+          >
+        </div>
+        <img
+          src="/assets/profile.avif"
+          alt="Profile Picture"
+          width="300px"
+          class="Profile-pic"
+        />
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I’m a passionate full-stack developer with a few years of experience
+            creating dynamic web applications. My journey in tech began when I
+            built my first webpage at 18, and I’ve been hooked ever since.
+          </p>
+          <p>
+            I enjoy working with modern web technologies and constantly
+            improving my skills. I like experimenting with new ideas, refining
+            my designs, and learning better ways to build efficient and
+            interactive applications.
+          </p>
+          <p>
+            When I’m not coding, I spend time exploring new tech trends,
+            practicing problem-solving, and sharpening my development skills to
+            stay ahead in the game.
+          </p>
+        </div>
+        <!-- Skills Progress Bars -->
+        <div class="skills">
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Python</span>
+            </div>
+            <div class="skills-bar">
+              <div class="skill-progress" style="width: 50%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>C/C++</span>
+            </div>
+            <div class="skills-bar">
+              <div class="skill-progress" style="width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Frontend Development</span>
+            </div>
+            <div class="skills-bar">
+              <div class="skill-progress" style="width: 20%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>UI Design</span>
+            </div>
+            <div class="skills-bar">
+              <div class="skill-progress" style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Team Collaboration</span>
+            </div>
+            <div class="skills-bar">
+              <div class="skill-progress" style="width: 20%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img
+            src="/assets/Radar.png"
+            alt="Project 1"
+            height="200px"
+            class="project-image"
+          />
+          <div class="project-info">
+            <h3 class="project-title">Arduino-Based Radar</h3>
+            <p class="project-description">
+              This project demonstrates a basic radar system using Arduino that
+              detects the presence of objects within a specific range. An
+              ultrasonic sensor is mounted on a servo motor to sweep the
+              surroundings and measure distances. When an object is detected
+              within the defined detection range, the system notifies the user
+              via serial output or LED indicators. The project showcases
+              fundamental concepts of sensor-based detection, Arduino
+              programming, and real-time obstacle recognition.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Arduino UNO</span>
+              <span class="tech-tag">Embedded C/C++</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="/assets/InsightHub.jpeg"
+            alt="Project 2"
+            height="200px"
+            class="project-image"
+          />
+          <div class="project-info">
+            <h3 class="project-title">Insight Hub</h3>
+            <p class="project-description">
+              InsightHub is a powerful, intuitive, and smart analytics +
+              forecasting tool built for local shopkeepers and small businesses.
+              No Excel chaos. No technical complexity. Just actionable insights,
+              simple uploads, and clean dashboards.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Frontend: Streamlit, HTML/CSS</span>
+              <span class="tech-tag"
+                >Backend: Python, Pandas, NumPy, Scikit-learn</span
+              >
+              <span class="tech-tag"
+                >ML Models: Prophet, ARIMA, Exponential Smoothing</span
+              >
+              <span class="tech-tag"
+                >Charts: Plotly, Streamlit native visualizations</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img
+            src="/assets/CarbonScope.png"
+            alt="Project 3"
+            height="200px"
+            class="project-image"
+          />
+        <div class="project-info">
+          <h3 class="project-title">Carbon Emission Analysis Dashboard</h3>
+  
+          <p class="project-description">
+            An interactive environmental data dashboard designed to visualize and analyze CO₂ emissions and Air Quality Index (AQI) trends across different regions. The system enables users to explore time-based emission patterns, compare pollution levels between states, and gain meaningful insights through dynamic charts and structured visual elements.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML-CSS-JS</span>
+            <span class="tech-tag">Plotly.js / Chart.js</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Flask</span>
+            <span class="tech-tag">Pandas & Matplot</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img
+            src="/assets/AI-Tutor.jpeg"
+            alt="Project 4"
+            height="200px"
+            class="project-image"
+        />
+        <div class="project-info">
+          <h3 class="project-title">AI Tutor</h3>
+          <p class="project-description">
+            An education platform developed using React, Express.js, and Firebase, enhanced with OpenRouter AI integration. The system enables comprehensive course management, personalized AI-driven tutoring, interactive community discussions, and real-time progress tracking to create a dynamic and engaging learning experience.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Frontend: React18, Tailwind, Framer Motion</span>
+            <span class="tech-tag"
+                >Backend: Express.js (TypeScript), Firebase, OpenRouter</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+
+      <form action="#" class="contact-form">
+        <div class="form-group">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-input" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-input" id="email" required />
+        </div>
+        <div class="form-input">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-input" id="subject" required />
+        </div>
+        <div class="form-group">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-textarea" id="message" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="social-links">
+        <a href="https://github.com/Pushkar-29-06" class="social-link" id="github"><i class="fa-brands fa-github"></i></a>
+
+        <a href="www.linkedin.com/in/pushkar-mahadik-a0686432a" class="social-link" id="linkedIn"><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+
+        <a href="#" class="social-link" id="twitter"><i class="fa-brands fa-twitter"></i></a>
+
+        <a href="#" class="social-link" id="Insta"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+      <p class="copyright">©️ All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
