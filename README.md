@@ -1,6 +1,6 @@
-# Task - 1 Project
+# Portfolio
 
-This project is a web portfolio for Pushkar Mahadik, featuring:
+This is a web portfolio, featuring:
 - Responsive design with dark/light theme toggle
 - Animated particle background
 - Skills progress bars
